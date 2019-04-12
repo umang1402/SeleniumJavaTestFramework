@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27281" started-at="2019-04-12T06:05:38Z" finished-at="2019-04-12T06:06:05Z">
+    <groups>
+    </groups>
+    <test name="RegressionTest" duration-ms="27281" started-at="2019-04-12T06:05:38Z" finished-at="2019-04-12T06:06:05Z">
+      <class name="com.seleniumtaf.test.RegressionTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.seleniumtaf.test.RegressionTest@6442b0a6]" name="setup" is-config="true" duration-ms="4140" started-at="2019-04-12T06:05:38Z" finished-at="2019-04-12T06:05:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateSearchFilter(java.lang.reflect.Method)[pri:0, instance:com.seleniumtaf.test.RegressionTest@6442b0a6]" name="validateSearchFilter" duration-ms="2292" started-at="2019-04-12T06:05:42Z" description="Search filter results in item searched for" finished-at="2019-04-12T06:05:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtaf.test.RegressionTest.validateSearchFilter(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchFilter -->
+        <test-method status="PASS" signature="validateComputerIsAdded(java.lang.reflect.Method)[pri:1, instance:com.seleniumtaf.test.RegressionTest@6442b0a6]" name="validateComputerIsAdded" duration-ms="3184" started-at="2019-04-12T06:05:44Z" description="Add a new computer in to the database" finished-at="2019-04-12T06:05:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtaf.test.RegressionTest.validateComputerIsAdded(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateComputerIsAdded -->
+        <test-method status="PASS" signature="validateComputerIsDeleted(java.lang.reflect.Method)[pri:2, instance:com.seleniumtaf.test.RegressionTest@6442b0a6]" name="validateComputerIsDeleted" duration-ms="1822" started-at="2019-04-12T06:05:47Z" description="Delete already added computer system from warehouse and validate" finished-at="2019-04-12T06:05:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtaf.test.RegressionTest.validateComputerIsDeleted(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateComputerIsDeleted -->
+        <test-method status="PASS" signature="validateComputerIsEdited(java.lang.reflect.Method)[pri:3, instance:com.seleniumtaf.test.RegressionTest@6442b0a6]" name="validateComputerIsEdited" duration-ms="15149" started-at="2019-04-12T06:05:49Z" description="Edit an already existing computer in the database or Create one before" finished-at="2019-04-12T06:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtaf.test.RegressionTest.validateComputerIsEdited(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateComputerIsEdited -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.seleniumtaf.test.RegressionTest@6442b0a6]" name="teardown" is-config="true" duration-ms="675" started-at="2019-04-12T06:06:04Z" finished-at="2019-04-12T06:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.seleniumtaf.test.RegressionTest -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- Suite -->
+</testng-results>

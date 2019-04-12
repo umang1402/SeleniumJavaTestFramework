@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ChooseBrowser(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.seleniumtaf.test.RegressionTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="validateComputerIsEdited"/>
+        </methods>
+      </class> <!-- com.seleniumtaf.test.RegressionTest -->
+    </classes>
+  </test> <!-- ChooseBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

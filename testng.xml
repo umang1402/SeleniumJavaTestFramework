@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+        <listener class-name="com.seleniumtaf.utils.listeners.TestListener"/>
+        <listener class-name="com.seleniumtaf.utils.listeners.AnnotationTransformer"/>
+    </listeners>
+    
+  <test thread-count="5" name="RegressionTest">
+   <parameter name="browser" value="Chrome" />
+	<classes>
+	<class name="com.seleniumtaf.test.RegressionTest" />
+	</classes>
+	</test>
+	<!--  
+	<test thread-count="5" name="IETest">
+	<parameter name="browser" value="ie" />
+	<classes>
+	<class name="com.seleniumtaf.test.TestClass" />
+	</classes>
+	</test>
+	
+	<test thread-count="5" name="ChromeTest">
+	<parameter name="browser" value="chrome" />
+	<classes>
+	<class name="com.seleniumtaf.test.TestClass" />
+	</classes>
+	</test>
+	-->
+</suite> <!-- Suite -->
