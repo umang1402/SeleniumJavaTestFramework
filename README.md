@@ -1,5 +1,5 @@
 # SeleniumJavaTestFramework
-This Test Automation Framework is created using Java + Selenium Web Driver + TestNG. Which can be used across different web based applications. With this framework in place, whenever we need to automate a web based application, we would not need to start from scratch. This framework is protable with plug and play features. Maven build has been used to take care of all the dependencies.
+This Test Automation Framework is created using Java + Selenium Web Driver + TestNG. Which can be used across different web based applications. With this framework in place, whenever we need to automate a web based application, we would not need to start from scratch. This framework is protable with plug and play feature. Maven build has been used to take care of all the dependencies.
 
 
 Prerequisites:
